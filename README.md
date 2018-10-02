@@ -42,60 +42,10 @@ As a User: Navigate to (http://medwords.info/), select a patient or create a new
 * **DELETE /patient/:patientId** - This route will delete a patient and their records from the database and redirect to the main page with a success message.
 * **DELETE /record/:recordId** - This route will delete a record from the database and redirect to the patient detail page with a success message.
 
->### Microsoft Text Analytics Key Phrases API (requires key)
-* **POST /westus.api.cognitive.microsoft.comtext/analytics/v2.0/** - 
-* Include a header:  'Ocp-Apim-Subscription-Key' = YOUR_KEY
-
-Post body should be formatted as follows: 
-```
-{ 'documents': [
-    { 'id': '1', 'language': 'en', 'text': 'I really enjoy the new XBox One S. It has a clean look, it has 4K/HDR resolution and it is affordable.' },
-    { 'id': '2', 'language': 'es', 'text': 'Si usted quiere comunicarse con Carlos, usted debe de llamarlo a su telefono movil. Carlos es muy responsable, pero necesita recibir una notificacion si hay algun problema.' },
-    { 'id': '3', 'language': 'en', 'text': 'The Grand Hotel is a new hotel in the center of Seattle. It earned 5 stars in my review, and has the classiest decor I\'ve ever seen.' }
-]};
-```
-
-Example response:
-```
-{
-   "documents": [
-      {
-         "keyPhrases": [
-            "HDR resolution",
-            "new XBox",
-            "clean look"
-         ],
-         "id": "1"
-      },
-      {
-         "keyPhrases": [
-            "Carlos",
-            "notificacion",
-            "algun problema",
-            "telefono movil"
-         ],
-         "id": "2"
-      },
-      {
-         "keyPhrases": [
-            "new hotel",
-            "Grand Hotel",
-            "review",
-            "center of Seattle",
-            "classiest decor",
-            "stars"
-         ],
-         "id": "3"
-      }
-   ],
-   "errors": [  ]
-}
-```
-
-
-More detailed information about the API can be found here: (https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/nodejs)
 
 >### Credits and Collaborations
 Microsoft Text Analytics Key Phrases API
+
+W3Schools dynamic list filter function
 
 Sample chart notes (https://www.med.unc.edu/medselect/resources/sample-notes)
