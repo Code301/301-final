@@ -7,9 +7,9 @@
 >### Project Description
 This app is a proof of concept/prototype. The development team wanted to work with one of Microsoft's APIs with a focus on health care, so we brainstormed a project that combines the two. 
 
-      Our medical histories are increasingly pieced together from records created by different providers at different clinics and hospitals. Parsing a patient's medical history from such long, motley charts is time consuming; clinicians may not have the time to thoroughly 'read' a patient's history unless diagnosis or treatment necessitates. Moreover, when searching a patient's chart for specific terms like "hypertension" or "hypercholesterolemia," the clinician is only presented with records that match those terms.
+Our medical histories are increasingly pieced together from records created by different providers at different clinics and hospitals. Parsing a patient's medical history from such long, motley charts is time consuming; clinicians may not have the time to thoroughly 'read' a patient's history unless diagnosis or treatment necessitates. Moreover, when searching a patient's chart for specific terms like "hypertension" or "hypercholesterolemia," the clinician is only presented with records that match those terms.
 
-      We envisioned another way of reading a patient's history by analyzing a patient's chart (comprised of individual records) for key phrases. Med Words presents those key phrases to clinicians in a condensed format so that a new PCP can see major themes in a patient's history at a glance.
+We envisioned another way of reading a patient's history by analyzing a patient's chart (comprised of individual records) for key phrases. Med Words presents those key phrases to clinicians in a condensed format so that a new PCP can see major themes in a patient's history at a glance.
 
 >### Problem Domain
 Electronic Medical Records, Patient History Information Transfer, Knowledge Extraction, Natural Language Processing
