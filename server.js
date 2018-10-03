@@ -69,7 +69,7 @@ app.delete('/record/:recordId', records.deleteRecord);
 // ******************************** 404 CATCHER ************************************
 // =================================================================================
 
-//Simple temp 404 catcher
+//Simple 404 catcher
 app.get('*', (req, res) => {
   res.statusCode = 404;
   res.render('pages/error', {message: '404: We can\'t find what you requested'});
